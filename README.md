@@ -3,7 +3,7 @@
 <h2>Setup Common Lisp </h2>
 <b>Install interpreter:</b>
 - Install [Steel Bank Common Lisp](http://www.sbcl.org/platform-table.html).
-- Setup system path with "C:\Program Files (x86)\Steel Bank Common Lisp\1.2.15\"
+- Setup system path with "C:\Program Files (x86)\Steel Bank Common Lisp\1.2.16\"
 
 <b>Setup Sublime Text 2: </b>
 - Install SublimeREPL repository
