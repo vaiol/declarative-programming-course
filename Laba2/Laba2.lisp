@@ -27,6 +27,10 @@
 	(OR(CHECK-DECREASE-SORTED LST) (CHECK-INCREASE-SORTED LST))
 )
 
+;Task 2:
+
+
+
 
 ;Task 3:
 ;----------------------------------------------------
@@ -41,7 +45,7 @@
         (T (INSERTION-SORT (CDR X) (PUT-IN S (CAR X))))
    	)
 )
-; (WRITE(INSERTION-SORT LIST9))
+(WRITE(INSERTION-SORT LIST9))
 
 ;Task 4:
 ;----------------------------------------------------
@@ -68,7 +72,7 @@
 		(T NIL)
 	)
 )
-; (WRITE(ASSOCIATION LIST6 LIST1))
+(WRITE(ASSOCIATION LIST6 LIST1))
 
 
 
@@ -80,4 +84,4 @@
 		(T (MAX (DEEP (CAR LST) (+ INDEX 1)) (DEEP (CDR LST) INDEX)))
 	) 
 )
-; (WRITE (DEEP LIST8))
+(WRITE (DEEP LIST8))
